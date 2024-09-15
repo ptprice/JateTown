@@ -12,7 +12,7 @@ A text editor that runs in the browser. The app is a single-page application tha
 * [Test](#test)
 * [License](#license)
 * [Questions](#questions)
-* [Acknowledgements]
+* [Acknowledgements](#acknowledgements)
 ## Installation
 This is a deployed web app. You can install this locally by pressing the install button on the top left hand of the screen.
 ## Usage
