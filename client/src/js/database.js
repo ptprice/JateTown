@@ -19,7 +19,7 @@ const jatedb = await openDB('jate', 1);
   const store = tx.objectStore('jate');
   const request = store.put({id: 1, value: content });
   const result = await request;
-  console.log(result.value, 'content added to database');
+  console.log(result, 'content added to database');
 }
 
 // TODO: Add logic for a method that gets all the content from the database
@@ -29,7 +29,7 @@ export const getDb = async () => {
   const store = tx.objectStore('jate');
   const request =  store.get(1);
   const result = await request;
-  console.log(result.value, 'content retrieved from database');
+  console.log(result, 'content retrieved from database');
 }
 
 initdb();
